@@ -85,9 +85,22 @@ A mobile app for a martial arts school teaching Tai Chi, Shaolin Kung Fu, Wing C
 
 ---
 
+## 📅 Deadline
+
+**Target release: end of February / beginning of March 2027** (about 4 months from the start of development).
+
+---
+
 ## 🛠️ Tech Stack
 
-_To be decided._
+| Area | Choice |
+|------|--------|
+| Framework | [Flutter](https://flutter.dev) |
+| Language | Dart |
+| Platforms | Android and iOS (single codebase) |
+| Offline media | Videos and photos bundled inside the app |
+| Localization | Flutter's built-in localization (English, Chinese, more later) |
+| Live data & notifications | Firebase (planned) for schedule, news and push notifications |
 
 ---
 
@@ -99,7 +112,7 @@ git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 ```
 
-Build and run instructions will be added once the tech stack is finalized.
+Build and run instructions will be added as development progresses.
 
 ---
 
@@ -201,9 +214,22 @@ _To be decided._
 
 ---
 
+## 📅 截止日期
+
+**目标发布时间：2027 年 2 月底 / 3 月初**（自开发开始起约 4 个月）。
+
+---
+
 ## 🛠️ 技术栈
 
-_待定。_
+| 领域 | 选择 |
+|------|------|
+| 框架 | [Flutter](https://flutter.dev) |
+| 编程语言 | Dart |
+| 平台 | Android 和 iOS（同一套代码） |
+| 离线媒体 | 视频和照片内置于应用中 |
+| 本地化 | Flutter 内置本地化功能（英文、中文，之后增加更多语言） |
+| 实时数据与通知 | 计划使用 Firebase，用于课程表、新闻和推送通知 |
 
 ---
 
@@ -215,7 +241,7 @@ git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 ```
 
-技术栈确定后，将补充构建和运行说明。
+构建和运行说明将随开发进度补充。
 
 ---
 
