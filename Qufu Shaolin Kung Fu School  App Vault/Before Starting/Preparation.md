@@ -33,6 +33,7 @@ What does the app need?
 What to do at first sight?
 - [ ] Get in touch with **Joy**
 - [ ] Get in touch with **Master Wei**
-- [ ] Convince Master Wei to sell in the end the app for **==🔴at least $10.000 USD==** or get a discount
-- [ ] Learn a new programming language ***Kotlin***
-- [ ] 
+- [ ] Learn a new programming language ***Flutter/Dart***
+---
+Deadline
+Beginning of March
