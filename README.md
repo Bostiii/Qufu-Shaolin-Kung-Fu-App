@@ -44,7 +44,7 @@ It helps new students get started, keeps current students up to date, and gives 
 
 | Phase | Focus | Target | Status |
 |:-----:|-------|--------|:------:|
-| **1** | 🧱 **Foundation**: project setup, navigation, language system | Nov 2026 | 🔲 |
+| **1** | 🧱 **Foundation**: project setup, navigation, language system | Nov 2026 | 🚧 |
 | **2** | ⚙️ **Core systems**: login, student type, offline storage, backend | Nov – Dec 2026 | 🔲 |
 | **3** | 📡 **Live features**: schedule, cleaning duty, Masters on duty, news, notifications | Dec 2026 – Jan 2027 | 🔲 |
 | **4** | 📚 **Information sections**: rules, styles, staff, Masters, school, extras | Jan 2027 | 🔲 |
@@ -58,8 +58,8 @@ It helps new students get started, keeps current students up to date, and gives 
 <br>
 
 **🧱 Phase 1: Foundation**
-- [ ] Project setup (Android + iOS)
-- [ ] Navigation and folder structure
+- [x] Project setup (Android + iOS)
+- [ ] 🚧 Navigation and folder structure
 - [ ] Language system (English / Chinese)
 
 **⚙️ Phase 2: Core systems**
@@ -145,11 +145,30 @@ This is a project for a specific school. Questions and ideas are welcome via iss
 
 ---
 
-## 📄 License
+## 📄 Licenses
+
+### App
 
 Copyright © 2026 Bostiii. All rights reserved.
 
-This is proprietary software. The source code may not be copied, modified, distributed, or used without written permission from the copyright holder.
+This is proprietary software. The source code may not be copied, modified, distributed, or used without written permission from the copyright holder. Rights to use this app are granted to the Qufu Shaolin Kung Fu school only as defined in the written agreement between both parties.
+
+### Third-party software
+
+This app is built with open-source tools and packages that keep their own licenses:
+
+| Component | License |
+|-----------|---------|
+| [Flutter](https://flutter.dev) | BSD 3-Clause |
+| [Dart](https://dart.dev) | BSD 3-Clause |
+| Firebase for Flutter (FlutterFire) | Apache 2.0 |
+| Other packages from [pub.dev](https://pub.dev) | See each package's license |
+
+The licenses of all packages used in the app are shown inside the app itself (Flutter's built-in license page).
+
+### Media & content
+
+Photos, videos, texts and logos belong to their respective owners (the school, its staff and creators) and are used with permission. They may not be reused without the owner's consent.
 
 ---
 
@@ -187,7 +206,7 @@ This is proprietary software. The source code may not be copied, modified, distr
 
 | 阶段 | 重点 | 目标时间 | 状态 |
 |:----:|------|----------|:----:|
-| **1** | 🧱 **基础**：项目搭建、导航、语言系统 | 2026 年 11 月 | 🔲 |
+| **1** | 🧱 **基础**：项目搭建、导航、语言系统 | 2026 年 11 月 | 🚧 |
 | **2** | ⚙️ **核心系统**：登录、学员类型、离线存储、后端 | 2026 年 11 – 12 月 | 🔲 |
 | **3** | 📡 **实时功能**：课程表、清洁值日、值班师父、新闻、通知 | 2026 年 12 月 – 2027 年 1 月 | 🔲 |
 | **4** | 📚 **信息板块**：规则、武术门类、工作人员、师父、学校、其他 | 2027 年 1 月 | 🔲 |
@@ -230,8 +249,27 @@ cd Qufu-Shaolin-Kung-Fu-App
 
 ## 📄 许可证
 
+### 应用
+
 版权所有 © 2026 Bostiii。保留所有权利。
 
-本软件为专有软件。未经版权所有者书面许可，不得复制、修改、分发或使用源代码。
+本软件为专有软件。未经版权所有者书面许可，不得复制、修改、分发或使用源代码。曲阜少林功夫学校仅可按照双方书面协议约定的范围使用本应用。
+
+### 第三方软件
+
+本应用使用了开源工具和软件包，它们各自保留自己的许可证：
+
+| 组件 | 许可证 |
+|------|--------|
+| [Flutter](https://flutter.dev) | BSD 3-Clause |
+| [Dart](https://dart.dev) | BSD 3-Clause |
+| Firebase for Flutter (FlutterFire) | Apache 2.0 |
+| 来自 [pub.dev](https://pub.dev) 的其他软件包 | 请见各软件包的许可证 |
+
+应用中使用的所有软件包的许可证均可在应用内查看（Flutter 内置的许可证页面）。
+
+### 媒体与内容
+
+照片、视频、文字和标志归其各自所有者（学校、工作人员和创作者）所有，并经许可使用。未经所有者同意，不得再次使用。
 
 </details>
