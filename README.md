@@ -4,12 +4,13 @@
 
 **Your school in your pocket: schedule, news, guides and more.**
 
-![Status](https://img.shields.io/badge/status-in%20development-orange)
+![Status](https://img.shields.io/badge/status-%F0%9F%A5%8B%20in%20early%20development-orange)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)
 ![Platforms](https://img.shields.io/badge/platforms-Android%20%7C%20iOS-3DDC84)
 ![Languages](https://img.shields.io/badge/languages-EN%20%7C%20中文-red)
 ![Offline](https://img.shields.io/badge/works-offline-blue)
+![Martial Arts](https://img.shields.io/badge/martial%20arts-Tai%20Chi%20%7C%20Shaolin%20%7C%20Wing%20Chun%20%7C%20Sanda-B22222)
 
 [✨ Features](#-features) · [🗺️ Roadmap](#️-roadmap) · [🛠️ Tech Stack](#️-tech-stack) · [🚀 Getting Started](#-getting-started) · [🇨🇳 中文](#-功夫学校应用-中文)
 
