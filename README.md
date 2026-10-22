@@ -152,7 +152,7 @@ This is a project for a specific school. Questions and ideas are welcome via iss
 
 Copyright © 2026 Bostiii. All rights reserved.
 
-This is proprietary software. The source code may not be copied, modified, distributed, or used without written permission from the copyright holder. Rights to use this app are granted to the Qufu Shaolin Kung Fu school only as defined in the written agreement between both parties.
+This is proprietary software. The source code may not be copied, modified, distributed, or used without written permission from the copyright holder.
 
 ### Third-party software
 
@@ -254,7 +254,7 @@ cd Qufu-Shaolin-Kung-Fu-App
 
 版权所有 © 2026 Bostiii。保留所有权利。
 
-本软件为专有软件。未经版权所有者书面许可，不得复制、修改、分发或使用源代码。曲阜少林功夫学校仅可按照双方书面协议约定的范围使用本应用。
+本软件为专有软件。未经版权所有者书面许可，不得复制、修改、分发或使用源代码.
 
 ### 第三方软件
 
