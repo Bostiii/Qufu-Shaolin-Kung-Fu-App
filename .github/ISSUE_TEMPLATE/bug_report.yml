@@ -14,7 +14,7 @@ body:
     attributes:
       label: Summary / 摘要
       description: Short description of the bug
-      placeholder: Example: The schedule page crashes on Android
+      placeholder: "Example: The schedule page crashes on Android"
     validations:
       required: true
 
@@ -71,4 +71,4 @@ body:
       label: Confirmation / 确认
       options:
         - label: I have searched for existing issues / 我已搜索过现有 issue
-          required: true
+          required: trueYAML syntax error: (): mapping values are not allowed in this context at line 16 column 27
