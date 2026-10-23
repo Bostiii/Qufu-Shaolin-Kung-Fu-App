@@ -1,0 +1,74 @@
+name: Bug report / 问题反馈
+description: Report a bug or issue with the app
+title: ""
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug.
+        感谢反馈问题。
+
+  - type: input
+    id: summary
+    attributes:
+      label: Summary / 摘要
+      description: Short description of the bug
+      placeholder: Example: The schedule page crashes on Android
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform / 平台
+      options:
+        - Android
+        - iOS
+        - Web
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      description: Tell us how to reproduce the issue
+      placeholder: |
+        1. Open the app
+        2. Go to schedule
+        3. Tap refresh
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior / 预期行为
+      description: What should happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior / 实际行为
+      description: What actually happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / 日志
+      description: Add screenshots, logs, or error messages if available
+      placeholder: Paste logs here or attach screenshots
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation / 确认
+      options:
+        - label: I have searched for existing issues / 我已搜索过现有 issue
+          required: true
