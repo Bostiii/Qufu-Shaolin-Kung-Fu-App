@@ -150,9 +150,10 @@ This is a project for a specific school. Questions and ideas are welcome via iss
 
 ### App
 
-Copyright © 2026 Bostiii. All rights reserved.
+This project is protected by the [Qufu Shaolin Kung Fu App License](./LICENSE).
 
-This is proprietary software. The source code may not be copied, modified, distributed, or used without written permission from the copyright holder.
+Please read the license before using, contributing, or redistributing the project.
+
 
 ### Third-party software
 
@@ -166,6 +167,7 @@ This app is built with open-source tools and packages that keep their own licens
 | Other packages from [pub.dev](https://pub.dev) | See each package's license |
 
 The licenses of all packages used in the app are shown inside the app itself (Flutter's built-in license page).
+
 
 ### Media & content
 
@@ -252,9 +254,11 @@ cd Qufu-Shaolin-Kung-Fu-App
 
 ### 应用
 
-版权所有 © 2026 Bostiii。保留所有权利。
 
-本软件为专有软件。未经版权所有者书面许可，不得复制、修改、分发或使用源代码.
+本项目采用 [Qufu Shaolin Kung Fu App License](./LICENSE) 进行授权保护。
+
+请在使用、贡献或再分发本项目之前仔细阅读许可证内容。
+
 
 ### 第三方软件
 
@@ -268,6 +272,7 @@ cd Qufu-Shaolin-Kung-Fu-App
 | 来自 [pub.dev](https://pub.dev) 的其他软件包 | 请见各软件包的许可证 |
 
 应用中使用的所有软件包的许可证均可在应用内查看（Flutter 内置的许可证页面）。
+
 
 ### 媒体与内容
 
