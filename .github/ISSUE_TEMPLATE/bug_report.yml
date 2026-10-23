@@ -70,5 +70,5 @@ body:
     attributes:
       label: Confirmation / 确认
       options:
-        - label: I have searched for existing issues / 我已搜索过现有 issue
-          required: trueYAML syntax error: (): mapping values are not allowed in this context at line 16 column 27
+        - label: "I have searched for existing issues / 我已搜索过现有 issue"
+          required: true
