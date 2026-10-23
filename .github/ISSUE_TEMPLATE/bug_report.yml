@@ -1,6 +1,5 @@
 name: Bug report / 问题反馈
 description: Report a bug or issue with the app
-title: ""
 labels: ["bug"]
 body:
   - type: markdown
