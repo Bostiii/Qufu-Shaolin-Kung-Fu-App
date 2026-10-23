@@ -1,6 +1,6 @@
 name: Feature request / 功能建议
 description: Suggest an improvement or new feature
-title: ""
+title: "Feature request"
 labels: ["enhancement"]
 body:
   - type: markdown
@@ -13,7 +13,7 @@ body:
     id: feature
     attributes:
       label: Feature name / 功能名称
-      placeholder: Example: Calendar sync
+      placeholder: "Example: Calendar sync"
     validations:
       required: true
 
@@ -32,6 +32,17 @@ body:
       description: Describe your idea
     validations:
       required: true
+
+  - type: textarea
+    id: mockup
+    attributes:
+      label: Mockup / Design idea / 草图
+      description: Add screenshots, sketches, mockups, or describe the visual idea
+      placeholder: |
+        You can drag and drop images here.
+        You can also describe the layout, interaction, or screen idea.
+    validations:
+      required: false
 
   - type: textarea
     id: alternatives
