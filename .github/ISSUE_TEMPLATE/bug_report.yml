@@ -59,6 +59,30 @@ body:
       required: true
 
   - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / 截图
+      description: Drag and drop images into the issue body, or paste links here
+      placeholder: |
+        Add screenshots here.
+        You can also mention the related screen or file name.
+    validations:
+      required: false
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Related screen or file / 相关页面或文件
+      description: If known, mention the screen, widget, or code file involved
+      placeholder: |
+        Example:
+        - Screen: Schedule
+        - File: lib/screens/schedule_screen.dart
+        - Component: CalendarWidget
+    validations:
+      required: false
+
+  - type: textarea
     id: logs
     attributes:
       label: Logs / 日志
