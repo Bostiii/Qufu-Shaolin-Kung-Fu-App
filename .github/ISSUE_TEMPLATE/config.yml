@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security issue / 安全问题
+    url: https://github.com/Bostiii/Qufu-Shaolin-Kung-Fu-App/security/advisories/new
+    about: Please report security vulnerabilities privately here.
+  - name: General discussion / 一般讨论
+    url: https://github.com/Bostiii/Qufu-Shaolin-Kung-Fu-App/discussions
+    about: For general questions and discussion.
