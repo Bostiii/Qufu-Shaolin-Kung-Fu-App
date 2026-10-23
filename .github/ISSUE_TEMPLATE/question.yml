@@ -1,6 +1,6 @@
 name: Question / 问题咨询
 description: Ask a question or request support
-title: ""
+title: "Question"
 labels: ["question"]
 body:
   - type: markdown
@@ -12,16 +12,16 @@ body:
   - type: input
     id: topic
     attributes:
-      label: Topic / 主题
-      description: Short summary of your question
-      placeholder: Example: How do I update my schedule?
+      label: "Topic / 主题"
+      description: "Short summary of your question"
+      placeholder: "Example: How do I update my schedule?"
     validations:
       required: true
 
   - type: dropdown
     id: category
     attributes:
-      label: Category / 类别
+      label: "Category / 类别"
       options:
         - App usage / 应用使用
         - Installation / 安装
@@ -34,8 +34,8 @@ body:
   - type: textarea
     id: question
     attributes:
-      label: Your question / 您的问题
-      description: Please describe what you need help with
+      label: "Your question / 您的问题"
+      description: "Please describe what you need help with"
       placeholder: |
         I am trying to...
         I expected...
@@ -44,10 +44,21 @@ body:
       required: true
 
   - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshot / PNG image / 截图"
+      description: "Drag and drop a screenshot or PNG here, or paste an image link"
+      placeholder: |
+        You can attach a screenshot by dragging it into the issue body.
+        You can also paste a link to the image.
+    validations:
+      required: false
+
+  - type: textarea
     id: context
     attributes:
-      label: Additional context / 额外信息
-      description: Device, OS, app version, screenshots, etc.
+      label: "Additional context / 额外信息"
+      description: "Device, OS, app version, screenshots, etc."
       placeholder: |
         - OS:
         - Device:
@@ -60,7 +71,7 @@ body:
   - type: checkboxes
     id: search
     attributes:
-      label: Confirmation / 确认
+      label: "Confirmation / 确认"
       options:
-        - label: I have checked existing issues and documentation / 我已检查过现有 issue 和文档
+        - label: "I have checked existing issues and documentation / 我已检查过现有 issue 和文档"
           required: true
