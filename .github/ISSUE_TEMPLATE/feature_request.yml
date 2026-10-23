@@ -1,0 +1,46 @@
+name: Feature request / 功能建议
+description: Suggest an improvement or new feature
+title: ""
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement.
+        感谢提出功能建议。
+
+  - type: input
+    id: feature
+    attributes:
+      label: Feature name / 功能名称
+      placeholder: Example: Calendar sync
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve / 要解决的问题
+      description: What problem are you trying to solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution / 建议方案
+      description: Describe your idea
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered / 备选方案
+      description: Any alternatives or workarounds?
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context / 额外信息
+      description: Screenshots, mockups, or references
