@@ -1,0 +1,16 @@
+{
+  "@@locale": "en",
+  "appTitle": "Qufu Shaolin Kung Fu School",
+  "navHome": "Home",
+  "navSchedule": "Schedule",
+  "navNews": "News",
+  "navStyles": "Styles",
+  "navInfo": "School",
+  "settingsTitle": "Settings",
+  "languageLabel": "Language",
+  "languageEnglish": "English",
+  "languageChinese": "中文",
+  "onboardingTitle": "Welcome",
+  "newStudentTitle": "New students",
+  "comingSoon": "Coming soon"
+}
