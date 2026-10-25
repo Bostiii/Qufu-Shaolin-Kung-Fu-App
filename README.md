@@ -45,8 +45,8 @@ It helps new students get started, keeps current students up to date, and gives 
 
 | Phase | Focus | Target | Status |
 |:-----:|-------|--------|:------:|
-| **1** | 🧱 **Foundation**: project setup, navigation, language system | Nov 2026 | 🚧 |
-| **2** | ⚙️ **Core systems**: login, student type, offline storage, backend | Nov – Dec 2026 | 🔲 |
+| **1** | 🧱 **Foundation**: project setup, navigation, language system | Nov 2026 | ✅ |
+| **2** | ⚙️ **Core systems**: login, student type, offline storage, backend | Nov – Dec 2026 | 🚧 |
 | **3** | 📡 **Live features**: schedule, cleaning duty, Masters on duty, news, notifications | Dec 2026 – Jan 2027 | 🔲 |
 | **4** | 📚 **Information sections**: rules, styles, staff, Masters, school, extras | Jan 2027 | 🔲 |
 | **5** | 🚪 **Entry experience**: introduction, main page, settings | Feb 2027 | 🔲 |
@@ -60,10 +60,10 @@ It helps new students get started, keeps current students up to date, and gives 
 
 **🧱 Phase 1: Foundation**
 - [x] Project setup (Android + iOS)
-- [ ] 🚧 Navigation and folder structure
-- [ ] Language system (English / Chinese)
+- [x] Navigation and folder structure
+- [x] Language system (English / Chinese)
 
-**⚙️ Phase 2: Core systems**
+**⚙️ Phase 2: Core systems 🚧**
 - [ ] Registration / Login
 - [ ] Old / new student selection
 - [ ] Offline videos and photos
@@ -192,6 +192,8 @@ Photos, videos, texts and logos belong to their respective owners (the school, i
 
 它帮助新学员快速上手，让老学员随时了解最新动态，并为大家提供一个集学校课程表、新闻和信息于一体的平台。
 
+---
+
 ## ✨ 功能
 
 | | 领域 | 内容 |
@@ -203,19 +205,73 @@ Photos, videos, texts and logos belong to their respective owners (the school, i
 | 📡 | **实时信息** | 实时课程表、活动新闻、本周清洁值日、值班师父、通知 |
 | ⚙️ | **通用** | 设置、英文 / 中文（之后增加更多语言）、Android 和 iOS |
 
+---
+
 ## 🗺️ 路线图
-
+ 
 > 目标发布时间：**2027 年 2 月底 / 3 月初**
-
+ 
 | 阶段 | 重点 | 目标时间 | 状态 |
 |:----:|------|----------|:----:|
-| **1** | 🧱 **基础**：项目搭建、导航、语言系统 | 2026 年 11 月 | 🚧 |
-| **2** | ⚙️ **核心系统**：登录、学员类型、离线存储、后端 | 2026 年 11 – 12 月 | 🔲 |
+| **1** | 🧱 **基础**：项目搭建、导航、语言系统 | 2026 年 11 月 | ✅ |
+| **2** | ⚙️ **核心系统**：登录、学员类型、离线存储、后端 | 2026 年 11 – 12 月 | 🚧 |
 | **3** | 📡 **实时功能**：课程表、清洁值日、值班师父、新闻、通知 | 2026 年 12 月 – 2027 年 1 月 | 🔲 |
 | **4** | 📚 **信息板块**：规则、武术门类、工作人员、师父、学校、其他 | 2027 年 1 月 | 🔲 |
 | **5** | 🚪 **入口体验**：介绍页面、主页、设置 | 2027 年 2 月 | 🔲 |
 | **6** | 🎨 **设计**：配色、字体、图标、动画 | 2027 年 2 月 | 🔲 |
 | **7** | 🧪 **测试与交付**：Android + iOS 测试、修复问题、交付 | 2027 年 2 – 3 月 | 🔲 |
+ 
+<details>
+<summary><b>📋 详细清单</b></summary>
+  
+<br>
+
+**🧱 第 1 阶段：基础**
+- [x] 项目搭建（Android + iOS）
+- [x] 导航和文件夹结构
+- [x] 语言系统（英文 / 中文）
+  
+**⚙️ 第 2 阶段：核心系统 🚧**
+- [ ] 注册 / 登录
+- [ ] 老学员 / 新学员选择
+- [ ] 离线视频和照片
+- [ ] 实时数据后端
+
+**📡 第 3 阶段：实时功能**
+- [ ] 实时课程表标签页
+- [ ] 清洁值日标签页
+- [ ] 值班师父标签页
+- [ ] 新闻与即将举行的活动
+- [ ] 通知
+
+**📚 第 4 阶段：信息板块**
+- [ ] 学校规则
+- [ ] 太极拳、少林功夫、咏春拳和散打概览
+- [ ] 工作人员、师父和学校介绍
+- [ ] 训练之外可做的事情
+- [ ] 新学员清单
+- [ ] 前往学校的路线
+- [ ] 新学员教程
+
+**🚪 第 5 阶段：入口体验**
+- [ ] 介绍页面
+- [ ] 主页
+- [ ] 设置
+
+**🎨 第 6 阶段：设计**
+- [ ] 配色、字体和图标
+- [ ] 应用图标和启动画面
+- [ ] 动画
+
+**🧪 第 7 阶段：测试与交付**
+- [ ] 在 Android 和 iOS 上测试
+- [ ] 测试离线模式和两种语言
+- [ ] 修复问题与性能优化
+- [ ] 额外语言（发布之后）
+
+</details>
+
+---
 
 ## 🌍 语言
 
@@ -224,6 +280,8 @@ Photos, videos, texts and logos belong to their respective owners (the school, i
 | 🇬🇧 英文 | ✅ 主要语言 |
 | 🇨🇳 中文 | ✅ 主要语言 |
 | 🌐 其他 | 🔜 计划之后添加 |
+
+---
 
 ## 🛠️ 技术栈
 
@@ -236,6 +294,8 @@ Photos, videos, texts and logos belong to their respective owners (the school, i
 | 本地化 | Flutter 内置本地化功能 |
 | 实时数据与通知 | 计划使用 Firebase |
 
+---
+
 ## 🚀 快速开始
 
 ```bash
@@ -246,14 +306,17 @@ cd Qufu-Shaolin-Kung-Fu-App
 
 构建和运行说明将随开发进度补充。
 
+---
+
 ## 💬 反馈
 
 这是为特定学校开发的项目，欢迎通过 issue 提出问题和想法。
 
+---
+
 ## 📄 许可证
 
 ### 应用
-
 
 本项目采用 [Qufu Shaolin Kung Fu App License](./LICENSE) 进行授权保护。
 
