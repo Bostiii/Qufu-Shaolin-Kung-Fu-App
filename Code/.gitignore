@@ -1,0 +1,14 @@
+
+# Build output and generated files
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+android/.gradle/
+android/local.properties
+android/**/GeneratedPluginRegistrant.*
+
+# IDE files
+.idea/
+*.iml

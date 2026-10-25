@@ -1,1 +1,4 @@
 .obisdian/
+.dart_tool/
+.idea/
+.flutter-plugins-dependencies

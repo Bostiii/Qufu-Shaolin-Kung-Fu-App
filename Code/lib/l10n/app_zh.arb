@@ -1,0 +1,16 @@
+{
+  "@@locale": "zh",
+  "appTitle": "曲阜少林功夫学校",
+  "navHome": "首页",
+  "navSchedule": "课程表",
+  "navNews": "新闻",
+  "navStyles": "武术",
+  "navInfo": "学校",
+  "settingsTitle": "设置",
+  "languageLabel": "语言",
+  "languageEnglish": "English",
+  "languageChinese": "中文",
+  "onboardingTitle": "欢迎",
+  "newStudentTitle": "新学员",
+  "comingSoon": "即将推出"
+}
