@@ -32,7 +32,7 @@ class ThemeSlider extends ConsumerWidget {
         decoration: BoxDecoration(
           color: theme.colorScheme.surfaceContainerHighest,
           borderRadius: BorderRadius.circular(_height / 2),
-          border: Border.all(color: iconColor.withOpacity(0.25)),
+          border: Border.all(color: iconColor.withValues(alpha: 0.25)),
         ),
         child: Stack(
           alignment: Alignment.center,
@@ -44,12 +44,12 @@ class ThemeSlider extends ConsumerWidget {
                 Padding(
                   padding: const EdgeInsets.only(left: 6),
                   child: Icon(Icons.light_mode_outlined,
-                      size: 18, color: iconColor.withOpacity(isDark ? 0.8 : 0)),
+                      size: 18, color: iconColor.withValues(alpha: isDark ? 0.8 : 0)),
                 ),
                 Padding(
                   padding: const EdgeInsets.only(right: 6),
                   child: Icon(Icons.dark_mode_outlined,
-                      size: 18, color: iconColor.withOpacity(isDark ? 0 : 0.8)),
+                      size: 18, color: iconColor.withValues(alpha: isDark ? 0 : 0.8)),
                 ),
               ],
             ),
