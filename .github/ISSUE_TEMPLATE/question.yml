@@ -1,0 +1,77 @@
+name: Question / 问题咨询
+description: Ask a question or request support
+title: "Question"
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for asking. Please describe your question clearly.
+        感谢提问。请清晰描述您的问题。
+
+  - type: input
+    id: topic
+    attributes:
+      label: "Topic / 主题"
+      description: "Short summary of your question"
+      placeholder: "Example: How do I update my schedule?"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Category / 类别"
+      options:
+        - App usage / 应用使用
+        - Installation / 安装
+        - Account or access / 账号或权限
+        - Feature question / 功能问题
+        - Other / 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: "Your question / 您的问题"
+      description: "Please describe what you need help with"
+      placeholder: |
+        I am trying to...
+        I expected...
+        But instead...
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshot / PNG image / 截图"
+      description: "Drag and drop a screenshot or PNG here, or paste an image link"
+      placeholder: |
+        You can attach a screenshot by dragging it into the issue body.
+        You can also paste a link to the image.
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Additional context / 额外信息"
+      description: "Device, OS, app version, screenshots, etc."
+      placeholder: |
+        - OS:
+        - Device:
+        - App version:
+        - Screenshot:
+        - Steps already tried:
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: search
+    attributes:
+      label: "Confirmation / 确认"
+      options:
+        - label: "I have checked existing issues and documentation / 我已检查过现有 issue 和文档"
+          required: true

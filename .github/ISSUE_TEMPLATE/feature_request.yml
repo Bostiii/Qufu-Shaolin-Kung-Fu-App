@@ -1,0 +1,70 @@
+name: Feature request / 功能建议
+description: Suggest an improvement or new feature
+title: "Feature request"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement.
+        感谢提出功能建议。
+
+  - type: input
+    id: feature
+    attributes:
+      label: Feature idea / 功能想法
+      placeholder: "Example: Student timetable notifications"
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: What would you like to see? / 你希望看到什么？
+      description: Describe the idea or desired improvement
+      placeholder: |
+        Example:
+        A reminder notification before class starts.
+        A page that shows upcoming training sessions more clearly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: value
+    attributes:
+      label: Why this would help / 为什么这会有帮助？
+      description: Explain the benefit for students, staff, or users
+      placeholder: |
+        This would help students...
+        This would make the app easier to use because...
+    validations:
+      required: true
+
+  - type: textarea
+    id: behavior
+    attributes:
+      label: How should it work? / 它应该如何运作？
+      description: Describe expected behavior or interaction
+      placeholder: |
+        Example:
+        The app should show a notification 30 minutes before class.
+        The user should be able to tap a session to see more details.
+    validations:
+      required: true
+
+  - type: textarea
+    id: mockup
+    attributes:
+      label: Mockup / Design idea / 草图
+      description: Add screenshots, sketches, mockups, or describe the visual idea
+      placeholder: |
+        You can drag and drop images here.
+        You can also describe the layout, interaction, or screen idea.
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context / 额外信息
+      description: Screenshots, mockups, or references

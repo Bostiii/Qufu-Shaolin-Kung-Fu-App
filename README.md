@@ -1,51 +1,107 @@
-# 🥋 Kung Fu School App
+<div align="center">
 
-A mobile app for a martial arts school teaching Tai Chi, Shaolin Kung Fu, Wing Chun and Sanda. It helps new students get started, keeps current students up to date, and gives everyone a single place for the school's schedule, news and information.
+# 🥋 Qufu Shaolin Kung Fu School App
 
-> **Status:** 🚧 In planning / early development
->
-> 🇨🇳 [中文版本在下方 (Chinese version below)](#-功夫学校应用-中文)
+**Your school in your pocket: schedule, news, guides and more.**
+
+![Status](https://img.shields.io/badge/status-in%20early%20development-orange)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)
+![Platforms](https://img.shields.io/badge/platforms-Android%20%7C%20iOS-3DDC84)
+![Languages](https://img.shields.io/badge/languages-EN%20%7C%20中文-red)
+![Offline](https://img.shields.io/badge/offline-supported-blue)
+![Martial Arts](https://img.shields.io/badge/martial%20arts-Tai%20Chi%20%7C%20Shaolin%20%7C%20Wing%20Chun%20%7C%20Sanda-B22222)
+
+[✨ Features](#-features) · [🗺️ Roadmap](#️-roadmap) · [🛠️ Tech Stack](#️-tech-stack) · [🚀 Getting Started](#-getting-started) · [🇨🇳 中文](#-功夫学校应用-中文)
+
+</div>
+
+---
+
+## 📖 About
+
+A mobile app for a martial arts school teaching **Tai Chi, Shaolin Kung Fu, Wing Chun and Sanda**.
+
+It helps new students get started, keeps current students up to date, and gives everyone one place for the school's schedule, news and information.
 
 ---
 
 ## ✨ Features
 
-### Onboarding & Accounts
-- Introduction screen
-- Registration / Login
-- Language selection (English and Chinese first, more languages later)
-- Old student / new student selection
-- Tutorial for new students
+| | Area | What's inside |
+|---|------|---------------|
+| 👋 | **Onboarding** | Introduction, registration / login, language selection, old / new student selection, tutorial for new students |
+| 🏠 | **Main Content** | Main page, school rules, new student checklist, how to get to the school |
+| 🥋 | **Styles & People** | Tai Chi, Shaolin Kung Fu, Wing Chun and Sanda overviews, staff, Masters, school overview, things to do outside of training |
+| 🎬 | **Media** | Built-in videos and photos, **fully offline**, no external links |
+| 📡 | **Live Information** | Live schedule, news for upcoming events, weekly cleaning duty, Masters on duty, notifications |
+| ⚙️ | **General** | Settings, English / Chinese (more languages later), Android and iOS |
 
-### Main Content
-- Main page
-- School rules
-- Separate app sections:
-  - Tai Chi overview
-  - Shaolin Kung Fu overview
-  - Wing Chun overview
-  - Sanda overview
-  - Staff overview
-  - Masters overview
-  - School overview
-  - Things to do outside of training
-- New student checklist (what to bring and prepare)
-- How to get to the school
+---
 
-### Media
-- Built-in videos and photos
-- **Fully offline compatible** – no external links, all media is bundled in the app
+## 🗺️ Roadmap
 
-### Live Information
-- Live schedule tab
-- Notifications
-- News for upcoming events
-- Weekly cleaning duty tab (who has to clean this week)
-- Masters on duty tab
+> Target release: **end of February / beginning of March 2027**
 
-### General
-- Settings
-- Compatible with both Android and iOS
+| Phase | Focus | Target | Status |
+|:-----:|-------|--------|:------:|
+| **1** | 🧱 **Foundation**: project setup, navigation, language system | Nov 2026 | ✅ |
+| **2** | ⚙️ **Core systems**: login, student type, offline storage, backend | Nov – Dec 2026 | 🚧 |
+| **3** | 📡 **Live features**: schedule, cleaning duty, Masters on duty, news, notifications | Dec 2026 – Jan 2027 | 🔲 |
+| **4** | 📚 **Information sections**: rules, styles, staff, Masters, school, extras | Jan 2027 | 🔲 |
+| **5** | 🚪 **Entry experience**: introduction, main page, settings | Feb 2027 | 🔲 |
+| **6** | 🎨 **Design**: colors, fonts, icons, animations | Feb 2027 | 🔲 |
+| **7** | 🧪 **Testing & delivery**: Android + iOS tests, bug fixing, handover | Feb – Mar 2027 | 🔲 |
+
+<details>
+<summary><b>📋 Detailed checklist</b></summary>
+
+<br>
+
+**🧱 Phase 1: Foundation**
+- [x] Project setup (Android + iOS)
+- [x] Navigation and folder structure
+- [x] Language system (English / Chinese)
+
+**⚙️ Phase 2: Core systems 🚧**
+- [ ] Registration / Login
+- [ ] Old / new student selection
+- [ ] Offline videos and photos
+- [ ] Backend for live data
+
+**📡 Phase 3: Live features**
+- [ ] Live schedule tab
+- [ ] Cleaning duty tab
+- [ ] Masters on duty tab
+- [ ] News and upcoming events
+- [ ] Notifications
+
+**📚 Phase 4: Information sections**
+- [ ] School rules
+- [ ] Tai Chi, Shaolin Kung Fu, Wing Chun and Sanda overviews
+- [ ] Staff, Masters and school overviews
+- [ ] Things to do outside of training
+- [ ] New student checklist
+- [ ] How to get to the school
+- [ ] Tutorial for new students
+
+**🚪 Phase 5: Entry experience**
+- [ ] Introduction
+- [ ] Main page
+- [ ] Settings
+
+**🎨 Phase 6: Design**
+- [ ] Colors, fonts and icons
+- [ ] App icon and splash screen
+- [ ] Animations
+
+**🧪 Phase 7: Testing & delivery**
+- [ ] Test on Android and iOS
+- [ ] Test offline mode and both languages
+- [ ] Bug fixing and performance
+- [ ] Additional languages (after release)
+
+</details>
 
 ---
 
@@ -53,41 +109,9 @@ A mobile app for a martial arts school teaching Tai Chi, Shaolin Kung Fu, Wing C
 
 | Language | Status |
 |----------|--------|
-| English  | Main   |
-| Chinese  | Main   |
-| Others   | Planned for later |
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Introduction
-- [ ] Registration / Login
-- [ ] Language selection
-- [ ] Additional languages
-- [ ] Old / new student selection
-- [ ] Tutorial for new students
-- [ ] Main page
-- [ ] School rules
-- [ ] Style overview sections (Tai Chi, Shaolin Kung Fu, Wing Chun, Sanda)
-- [ ] Staff, Masters and school overviews
-- [ ] Things to do outside of training
-- [ ] New student checklist
-- [ ] How to get to the school
-- [ ] Offline videos and photos
-- [ ] Live schedule tab
-- [ ] Notifications
-- [ ] Settings
-- [ ] News and upcoming events
-- [ ] Cleaning duty tab
-- [ ] Masters on duty tab
-- [ ] Android and iOS support
-
----
-
-## 📅 Deadline
-
-**Target release: end of February / beginning of March 2027** (about 4 months from the start of development).
+| 🇬🇧 English | ✅ Main |
+| 🇨🇳 Chinese | ✅ Main |
+| 🌐 Others | 🔜 Planned for later |
 
 ---
 
@@ -99,8 +123,8 @@ A mobile app for a martial arts school teaching Tai Chi, Shaolin Kung Fu, Wing C
 | Language | Dart |
 | Platforms | Android and iOS (single codebase) |
 | Offline media | Videos and photos bundled inside the app |
-| Localization | Flutter's built-in localization (English, Chinese, more later) |
-| Live data & notifications | Firebase (planned) for schedule, news and push notifications |
+| Localization | Flutter's built-in localization |
+| Live data & notifications | Firebase (planned) |
 
 ---
 
@@ -108,73 +132,144 @@ A mobile app for a martial arts school teaching Tai Chi, Shaolin Kung Fu, Wing C
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/Bostiii/Qufu-Shaolin-Kung-Fu-App.git
+cd Qufu-Shaolin-Kung-Fu-App
 ```
 
 Build and run instructions will be added as development progresses.
 
 ---
 
-## 🤝 Contributing
+## 💬 Feedback
 
-This is a project for a specific school, but suggestions are welcome. Feel free to open an issue to discuss ideas or report problems.
+This is a project for a specific school. Questions and ideas are welcome via issues.
+
+---
+
+## 📄 Licenses
+
+### App
+
+This project is protected by the [Qufu Shaolin Kung Fu App License](./LICENSE).
+
+Please read the license before using, contributing, or redistributing the project.
+
+
+### Third-party software
+
+This app is built with open-source tools and packages that keep their own licenses:
+
+| Component | License |
+|-----------|---------|
+| [Flutter](https://flutter.dev) | BSD 3-Clause |
+| [Dart](https://dart.dev) | BSD 3-Clause |
+| Firebase for Flutter (FlutterFire) | Apache 2.0 |
+| Other packages from [pub.dev](https://pub.dev) | See each package's license |
+
+The licenses of all packages used in the app are shown inside the app itself (Flutter's built-in license page).
+
+
+### Media & content
+
+Photos, videos, texts and logos belong to their respective owners (the school, its staff and creators) and are used with permission. They may not be reused without the owner's consent.
 
 ---
 
-## 📄 License
+<details>
+<summary><h1 id="-功夫学校应用-中文">🇨🇳 功夫学校应用 (中文)</h1></summary>
 
-_To be decided._
+<br>
 
----
----
+<div align="center">
 
-# 🥋 功夫学校应用 (中文)
+**把学校装进口袋：课程表、新闻、指南，一应俱全。**
 
-这是一款为武术学校打造的手机应用，教授太极拳、少林功夫、咏春拳和散打。它帮助新学员快速上手，让老学员随时了解最新动态，并为大家提供一个集学校课程表、新闻和信息于一体的平台。
+</div>
 
-> **状态：** 🚧 规划 / 早期开发阶段
+## 📖 简介
+
+这是一款为武术学校打造的手机应用，教授**太极拳、少林功夫、咏春拳和散打**。
+
+它帮助新学员快速上手，让老学员随时了解最新动态，并为大家提供一个集学校课程表、新闻和信息于一体的平台。
 
 ---
 
 ## ✨ 功能
 
-### 入门与账户
-- 介绍页面
-- 注册 / 登录
-- 语言选择（首先支持英文和中文，之后增加更多语言）
-- 老学员 / 新学员选择
-- 新学员教程
+| | 领域 | 内容 |
+|---|------|------|
+| 👋 | **入门** | 介绍页面、注册 / 登录、语言选择、老学员 / 新学员选择、新学员教程 |
+| 🏠 | **主要内容** | 主页、学校规则、新学员清单、前往学校的路线 |
+| 🥋 | **武术与人物** | 太极拳、少林功夫、咏春拳、散打概览，工作人员、师父、学校介绍，训练之外可做的事情 |
+| 🎬 | **媒体** | 内置视频和照片，**完全支持离线**，不使用外部链接 |
+| 📡 | **实时信息** | 实时课程表、活动新闻、本周清洁值日、值班师父、通知 |
+| ⚙️ | **通用** | 设置、英文 / 中文（之后增加更多语言）、Android 和 iOS |
 
-### 主要内容
-- 主页
-- 学校规则
-- 独立的应用板块：
-  - 太极拳概览
-  - 少林功夫概览
-  - 咏春拳概览
-  - 散打概览
-  - 工作人员介绍
-  - 师父介绍
-  - 学校介绍
-  - 训练之外可做的事情
-- 新学员清单（需要携带和准备的物品）
-- 前往学校的路线
+---
 
-### 媒体
-- 内置视频和照片
-- **完全支持离线使用**：不使用外部链接，所有媒体内容均内置于应用中
+## 🗺️ 路线图
+ 
+> 目标发布时间：**2027 年 2 月底 / 3 月初**
+ 
+| 阶段 | 重点 | 目标时间 | 状态 |
+|:----:|------|----------|:----:|
+| **1** | 🧱 **基础**：项目搭建、导航、语言系统 | 2026 年 11 月 | ✅ |
+| **2** | ⚙️ **核心系统**：登录、学员类型、离线存储、后端 | 2026 年 11 – 12 月 | 🚧 |
+| **3** | 📡 **实时功能**：课程表、清洁值日、值班师父、新闻、通知 | 2026 年 12 月 – 2027 年 1 月 | 🔲 |
+| **4** | 📚 **信息板块**：规则、武术门类、工作人员、师父、学校、其他 | 2027 年 1 月 | 🔲 |
+| **5** | 🚪 **入口体验**：介绍页面、主页、设置 | 2027 年 2 月 | 🔲 |
+| **6** | 🎨 **设计**：配色、字体、图标、动画 | 2027 年 2 月 | 🔲 |
+| **7** | 🧪 **测试与交付**：Android + iOS 测试、修复问题、交付 | 2027 年 2 – 3 月 | 🔲 |
+ 
+<details>
+<summary><b>📋 详细清单</b></summary>
+  
+<br>
 
-### 实时信息
-- 实时课程表
-- 通知
-- 即将举行的活动新闻
-- 本周清洁值日标签页（本周谁负责打扫）
-- 值班师父标签页
+**🧱 第 1 阶段：基础**
+- [x] 项目搭建（Android + iOS）
+- [x] 导航和文件夹结构
+- [x] 语言系统（英文 / 中文）
+  
+**⚙️ 第 2 阶段：核心系统 🚧**
+- [ ] 注册 / 登录
+- [ ] 老学员 / 新学员选择
+- [ ] 离线视频和照片
+- [ ] 实时数据后端
 
-### 通用
-- 设置
-- 同时兼容 Android 和 iOS
+**📡 第 3 阶段：实时功能**
+- [ ] 实时课程表标签页
+- [ ] 清洁值日标签页
+- [ ] 值班师父标签页
+- [ ] 新闻与即将举行的活动
+- [ ] 通知
+
+**📚 第 4 阶段：信息板块**
+- [ ] 学校规则
+- [ ] 太极拳、少林功夫、咏春拳和散打概览
+- [ ] 工作人员、师父和学校介绍
+- [ ] 训练之外可做的事情
+- [ ] 新学员清单
+- [ ] 前往学校的路线
+- [ ] 新学员教程
+
+**🚪 第 5 阶段：入口体验**
+- [ ] 介绍页面
+- [ ] 主页
+- [ ] 设置
+
+**🎨 第 6 阶段：设计**
+- [ ] 配色、字体和图标
+- [ ] 应用图标和启动画面
+- [ ] 动画
+
+**🧪 第 7 阶段：测试与交付**
+- [ ] 在 Android 和 iOS 上测试
+- [ ] 测试离线模式和两种语言
+- [ ] 修复问题与性能优化
+- [ ] 额外语言（发布之后）
+
+</details>
 
 ---
 
@@ -182,41 +277,9 @@ _To be decided._
 
 | 语言 | 状态 |
 |------|------|
-| 英文 | 主要语言 |
-| 中文 | 主要语言 |
-| 其他 | 计划之后添加 |
-
----
-
-## 🗺️ 路线图
-
-- [ ] 介绍页面
-- [ ] 注册 / 登录
-- [ ] 语言选择
-- [ ] 增加更多语言
-- [ ] 老学员 / 新学员选择
-- [ ] 新学员教程
-- [ ] 主页
-- [ ] 学校规则
-- [ ] 武术门类概览（太极拳、少林功夫、咏春拳、散打）
-- [ ] 工作人员、师父和学校介绍
-- [ ] 训练之外可做的事情
-- [ ] 新学员清单
-- [ ] 前往学校的路线
-- [ ] 离线视频和照片
-- [ ] 实时课程表
-- [ ] 通知
-- [ ] 设置
-- [ ] 新闻与即将举行的活动
-- [ ] 清洁值日标签页
-- [ ] 值班师父标签页
-- [ ] 支持 Android 和 iOS
-
----
-
-## 📅 截止日期
-
-**目标发布时间：2027 年 2 月底 / 3 月初**（自开发开始起约 4 个月）。
+| 🇬🇧 英文 | ✅ 主要语言 |
+| 🇨🇳 中文 | ✅ 主要语言 |
+| 🌐 其他 | 🔜 计划之后添加 |
 
 ---
 
@@ -228,8 +291,8 @@ _To be decided._
 | 编程语言 | Dart |
 | 平台 | Android 和 iOS（同一套代码） |
 | 离线媒体 | 视频和照片内置于应用中 |
-| 本地化 | Flutter 内置本地化功能（英文、中文，之后增加更多语言） |
-| 实时数据与通知 | 计划使用 Firebase，用于课程表、新闻和推送通知 |
+| 本地化 | Flutter 内置本地化功能 |
+| 实时数据与通知 | 计划使用 Firebase |
 
 ---
 
@@ -237,20 +300,45 @@ _To be decided._
 
 ```bash
 # 克隆仓库
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/Bostiii/Qufu-Shaolin-Kung-Fu-App.git
+cd Qufu-Shaolin-Kung-Fu-App
 ```
 
 构建和运行说明将随开发进度补充。
 
 ---
 
-## 🤝 参与贡献
+## 💬 反馈
 
-这是为特定学校开发的项目，但欢迎提出建议。如有想法或问题，请随时提交 issue。
+这是为特定学校开发的项目，欢迎通过 issue 提出问题和想法。
 
 ---
 
 ## 📄 许可证
 
-_待定。_
+### 应用
+
+本项目采用 [Qufu Shaolin Kung Fu App License](./LICENSE) 进行授权保护。
+
+请在使用、贡献或再分发本项目之前仔细阅读许可证内容。
+
+
+### 第三方软件
+
+本应用使用了开源工具和软件包，它们各自保留自己的许可证：
+
+| 组件 | 许可证 |
+|------|--------|
+| [Flutter](https://flutter.dev) | BSD 3-Clause |
+| [Dart](https://dart.dev) | BSD 3-Clause |
+| Firebase for Flutter (FlutterFire) | Apache 2.0 |
+| 来自 [pub.dev](https://pub.dev) 的其他软件包 | 请见各软件包的许可证 |
+
+应用中使用的所有软件包的许可证均可在应用内查看（Flutter 内置的许可证页面）。
+
+
+### 媒体与内容
+
+照片、视频、文字和标志归其各自所有者（学校、工作人员和创作者）所有，并经许可使用。未经所有者同意，不得再次使用。
+
+</details>
