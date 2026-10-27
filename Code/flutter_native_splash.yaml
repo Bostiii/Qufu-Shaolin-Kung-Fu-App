@@ -1,0 +1,13 @@
+# Native splash (shown by Android/iOS before Flutter starts).
+# Colour only (no image) on purpose: the animated Flutter splash starts on
+# exactly this colour, so the logo blooms in with no jump.
+flutter_native_splash:
+  color: "#DC1E1E"        # light mode = primary red
+  color_dark: "#121110"   # dark mode  = dark background
+
+  android_12:
+    color: "#DC1E1E"
+    color_dark: "#121110"
+    # Android 12+ always draws an icon; use an empty (transparent) one.
+    image: assets/splash/splash_blank.png
+    image_dark: assets/splash/splash_blank.png

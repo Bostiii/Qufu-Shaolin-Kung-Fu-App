@@ -1,0 +1,62 @@
+name: qufu_shaolin_app
+description: "Qufu Shaolin Kung Fu School app: schedule, news, guides and more."
+publish_to: 'none' # private app, not published to pub.dev
+
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management and navigation
+  flutter_riverpod: ^3.4.3
+  go_router: ^18.1.1
+
+  # Local storage and localization
+  shared_preferences: ^2.5.6
+  intl: any
+
+  # Media (bundled, fully offline)
+  flutter_svg: ^2.2.0
+  video_player: ^2.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.4.8
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/images/logo/
+    - assets/images/logo/black/
+    - assets/images/logo/red/
+    - assets/images/logo/white/
+    - assets/images/logo/images_logo/
+    - assets/images/logo/images_logo/2.0x/
+    - assets/images/logo/images_logo/3.0x/
+    - assets/images/people/
+    - assets/images/onboarding/
+    - assets/images/school/
+    - assets/images/styles/
+    - assets/splash/
+    - assets/svg/
+    - assets/videos/
+
+  # Custom fonts (Phase 6), example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: assets/fonts/Schyler-Regular.ttf
