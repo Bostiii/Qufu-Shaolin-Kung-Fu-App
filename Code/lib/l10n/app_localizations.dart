@@ -140,6 +140,12 @@ abstract class AppLocalizations {
   /// **'Settings'**
   String get settingsTitle;
 
+  /// No description provided for @theme.
+  ///
+  /// In en, this message translates to:
+  /// **'Theme'**
+  String get theme;
+
   /// No description provided for @languageLabel.
   ///
   /// In en, this message translates to:
@@ -164,6 +170,30 @@ abstract class AppLocalizations {
   /// **'Welcome'**
   String get onboardingTitle;
 
+  /// No description provided for @welcomeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome'**
+  String get welcomeTitle;
+
+  /// No description provided for @welcomeSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your school in your pocket: schedule, news, guides and more.'**
+  String get welcomeSubtitle;
+
+  /// No description provided for @welcomeGetStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Get started'**
+  String get welcomeGetStarted;
+
+  /// No description provided for @welcomeLogin.
+  ///
+  /// In en, this message translates to:
+  /// **'Coming Soon'**
+  String get welcomeLogin;
+
   /// No description provided for @newStudentTitle.
   ///
   /// In en, this message translates to:
@@ -175,6 +205,192 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Coming soon'**
   String get comingSoon;
+
+  /// No description provided for @scheduleNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Now'**
+  String get scheduleNow;
+
+  /// No description provided for @scheduleFreeTime.
+  ///
+  /// In en, this message translates to:
+  /// **'Free time'**
+  String get scheduleFreeTime;
+
+  /// No description provided for @scheduleGate.
+  ///
+  /// In en, this message translates to:
+  /// **'Gate'**
+  String get scheduleGate;
+
+  /// No description provided for @scheduleLegendMartial.
+  ///
+  /// In en, this message translates to:
+  /// **'Martial arts'**
+  String get scheduleLegendMartial;
+
+  /// No description provided for @scheduleLegendOptional.
+  ///
+  /// In en, this message translates to:
+  /// **'Optional'**
+  String get scheduleLegendOptional;
+
+  /// No description provided for @scheduleLegendTraining.
+  ///
+  /// In en, this message translates to:
+  /// **'Training'**
+  String get scheduleLegendTraining;
+
+  /// No description provided for @scheduleLegendCulture.
+  ///
+  /// In en, this message translates to:
+  /// **'Culture'**
+  String get scheduleLegendCulture;
+
+  /// No description provided for @scheduleLegendMeals.
+  ///
+  /// In en, this message translates to:
+  /// **'Meals'**
+  String get scheduleLegendMeals;
+
+  /// No description provided for @scheduleLegendFree.
+  ///
+  /// In en, this message translates to:
+  /// **'Blank = free time'**
+  String get scheduleLegendFree;
+
+  /// No description provided for @classTaiChiOptional.
+  ///
+  /// In en, this message translates to:
+  /// **'Tai Chi (optional)'**
+  String get classTaiChiOptional;
+
+  /// No description provided for @classBreakfast.
+  ///
+  /// In en, this message translates to:
+  /// **'Breakfast'**
+  String get classBreakfast;
+
+  /// No description provided for @classShaolin.
+  ///
+  /// In en, this message translates to:
+  /// **'Shaolin'**
+  String get classShaolin;
+
+  /// No description provided for @classWingChun.
+  ///
+  /// In en, this message translates to:
+  /// **'Wing Chun'**
+  String get classWingChun;
+
+  /// No description provided for @classQigong.
+  ///
+  /// In en, this message translates to:
+  /// **'Qigong'**
+  String get classQigong;
+
+  /// No description provided for @classTakedownsChinNa.
+  ///
+  /// In en, this message translates to:
+  /// **'Takedowns / Chin Na'**
+  String get classTakedownsChinNa;
+
+  /// No description provided for @classJumpAndRoll.
+  ///
+  /// In en, this message translates to:
+  /// **'Jump & Roll'**
+  String get classJumpAndRoll;
+
+  /// No description provided for @classConditioning.
+  ///
+  /// In en, this message translates to:
+  /// **'Conditioning'**
+  String get classConditioning;
+
+  /// No description provided for @classLunch.
+  ///
+  /// In en, this message translates to:
+  /// **'Lunch'**
+  String get classLunch;
+
+  /// No description provided for @classSanda.
+  ///
+  /// In en, this message translates to:
+  /// **'Sanda'**
+  String get classSanda;
+
+  /// No description provided for @classMountainClimbing.
+  ///
+  /// In en, this message translates to:
+  /// **'Mountain Climbing'**
+  String get classMountainClimbing;
+
+  /// No description provided for @classDinner.
+  ///
+  /// In en, this message translates to:
+  /// **'Dinner'**
+  String get classDinner;
+
+  /// No description provided for @classMandarin.
+  ///
+  /// In en, this message translates to:
+  /// **'Mandarin'**
+  String get classMandarin;
+
+  /// No description provided for @classCalligraphyTcm.
+  ///
+  /// In en, this message translates to:
+  /// **'Calligraphy / TCM'**
+  String get classCalligraphyTcm;
+
+  /// No description provided for @notificationsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Notifications'**
+  String get notificationsTitle;
+
+  /// No description provided for @notificationsEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No notifications'**
+  String get notificationsEmpty;
+
+  /// No description provided for @notificationsInDevelopment.
+  ///
+  /// In en, this message translates to:
+  /// **'(In development)'**
+  String get notificationsInDevelopment;
+
+  /// No description provided for @scheduleSeasonLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Schedule time'**
+  String get scheduleSeasonLabel;
+
+  /// No description provided for @scheduleSeasonSummer.
+  ///
+  /// In en, this message translates to:
+  /// **'Summer time'**
+  String get scheduleSeasonSummer;
+
+  /// No description provided for @scheduleSeasonWinter.
+  ///
+  /// In en, this message translates to:
+  /// **'Winter time'**
+  String get scheduleSeasonWinter;
+
+  /// No description provided for @scheduleSeasonSummerHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Standard timetable.'**
+  String get scheduleSeasonSummerHint;
+
+  /// No description provided for @scheduleSeasonWinterHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Winter time: classes after lunch start 30 minutes earlier. Gate closing times stay the same.'**
+  String get scheduleSeasonWinterHint;
 }
 
 class _AppLocalizationsDelegate
