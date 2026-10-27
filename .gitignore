@@ -1,1 +1,74 @@
-.obisdian/
+# Dart / Flutter
+**/.dart_tool/
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/build/
+**/doc/api/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.widget_preview/
+**/.fvm/
+**/coverage/
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.*
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+*.apk
+*.aab
+
+# iOS / macOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/macos/Flutter/ephemeral/
+**/xcuserdata/
+DerivedData/
+
+# Desktop ephemeral
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# Signing keys (never commit)
+key.properties
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+*.cer
+
+# Secrets and Firebase config
+.env
+.env.*
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+.firebase/
+firebase-debug.log
+
+# IDE / OS
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Obsidian (personal, changes constantly)
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/cache
+
+# Misc
+*.log
+*.tmp
