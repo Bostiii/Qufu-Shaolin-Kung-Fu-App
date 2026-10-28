@@ -30,7 +30,7 @@ It helps new students get started, keeps current students up to date, and gives 
 
 | | Area | What's inside |
 |---|------|---------------|
-| 👋 | **Onboarding** | Introduction, registration / login, language selection, old / new student selection, tutorial for new students |
+| 👋 | **Onboarding** | Introduction, registration / login, language selection, tutorial for new students |
 | 🏠 | **Main Content** | Main page, school rules, new student checklist, how to get to the school |
 | 🥋 | **Styles & People** | Tai Chi, Shaolin Kung Fu, Wing Chun and Sanda overviews, staff, Masters, school overview, things to do outside of training |
 | 🎬 | **Media** | Built-in videos and photos, **fully offline**, no external links |
@@ -46,7 +46,7 @@ It helps new students get started, keeps current students up to date, and gives 
 | Phase | Focus | Target | Status |
 |:-----:|-------|--------|:------:|
 | **1** | 🧱 **Foundation**: project setup, navigation, language system | Nov 2026 | ✅ |
-| **2** | ⚙️ **Core systems**: login, student type, offline storage, backend | Nov – Dec 2026 | 🚧 |
+| **2** | ⚙️ **Core systems**: login, offline storage, backend | Nov – Dec 2026 | 🚧 |
 | **3** | 📡 **Live features**: schedule, cleaning duty, Masters on duty, news, notifications | Dec 2026 – Jan 2027 | 🔲 |
 | **4** | 📚 **Information sections**: rules, styles, staff, Masters, school, extras | Jan 2027 | 🔲 |
 | **5** | 🚪 **Entry experience**: introduction, main page, settings | Feb 2027 | 🔲 |
@@ -65,7 +65,6 @@ It helps new students get started, keeps current students up to date, and gives 
 
 **⚙️ Phase 2: Core systems 🚧**
 - [ ] Registration / Login
-- [ ] Old / new student selection
 - [ ] Offline videos and photos
 - [ ] Backend for live data
 
@@ -199,7 +198,7 @@ Photos, videos, texts and logos belong to their respective owners (the school, i
 | | 领域 | 内容 |
 |---|------|------|
 | 👋 | **入门** | 介绍页面、注册 / 登录、语言选择、老学员 / 新学员选择、新学员教程 |
-| 🏠 | **主要内容** | 主页、学校规则、新学员清单、前往学校的路线 |
+| 🏠 | **主要内容** | 主页、学校规则、前往学校的路线 |
 | 🥋 | **武术与人物** | 太极拳、少林功夫、咏春拳、散打概览，工作人员、师父、学校介绍，训练之外可做的事情 |
 | 🎬 | **媒体** | 内置视频和照片，**完全支持离线**，不使用外部链接 |
 | 📡 | **实时信息** | 实时课程表、活动新闻、本周清洁值日、值班师父、通知 |
@@ -214,7 +213,7 @@ Photos, videos, texts and logos belong to their respective owners (the school, i
 | 阶段 | 重点 | 目标时间 | 状态 |
 |:----:|------|----------|:----:|
 | **1** | 🧱 **基础**：项目搭建、导航、语言系统 | 2026 年 11 月 | ✅ |
-| **2** | ⚙️ **核心系统**：登录、学员类型、离线存储、后端 | 2026 年 11 – 12 月 | 🚧 |
+| **2** | ⚙️ **核心系统**：登录、离线存储、后端 | 2026 年 11 – 12 月 | 🚧 |
 | **3** | 📡 **实时功能**：课程表、清洁值日、值班师父、新闻、通知 | 2026 年 12 月 – 2027 年 1 月 | 🔲 |
 | **4** | 📚 **信息板块**：规则、武术门类、工作人员、师父、学校、其他 | 2027 年 1 月 | 🔲 |
 | **5** | 🚪 **入口体验**：介绍页面、主页、设置 | 2027 年 2 月 | 🔲 |
@@ -233,7 +232,6 @@ Photos, videos, texts and logos belong to their respective owners (the school, i
   
 **⚙️ 第 2 阶段：核心系统 🚧**
 - [ ] 注册 / 登录
-- [ ] 老学员 / 新学员选择
 - [ ] 离线视频和照片
 - [ ] 实时数据后端
 
