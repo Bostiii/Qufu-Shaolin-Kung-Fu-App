@@ -31,10 +31,12 @@ It helps new students get started, keeps current students up to date, and gives 
 | | Area | What's inside |
 |---|------|---------------|
 | 👋 | **Onboarding** | Introduction, registration / login, language selection, tutorial for new students |
+| 🔐 | **Accounts & Roles** | Invite-only accounts with roles, profile page, ban and delete |
 | 🏠 | **Main Content** | Main page, school rules, new student checklist, how to get to the school |
 | 🥋 | **Styles & People** | Tai Chi, Shaolin Kung Fu, Wing Chun and Sanda overviews, staff, Masters, school overview, things to do outside of training |
 | 🎬 | **Media** | Built-in videos and photos, **fully offline**, no external links |
 | 📡 | **Live Information** | Live schedule, news for upcoming events, weekly cleaning duty, Masters on duty, notifications |
+| 💬 | **Community** | One group chat for everyone, names shown in role colors |
 | ⚙️ | **General** | Settings, English / Chinese (more languages later), Android and iOS |
 
 ---
@@ -46,8 +48,8 @@ It helps new students get started, keeps current students up to date, and gives 
 | Phase | Focus | Target | Status |
 |:-----:|-------|--------|:------:|
 | **1** | 🧱 **Foundation**: project setup, navigation, language system | Nov 2026 | ✅ |
-| **2** | ⚙️ **Core systems**: login, offline storage, backend | Nov – Dec 2026 | 🚧 |
-| **3** | 📡 **Live features**: schedule, cleaning duty, Masters on duty, news, notifications | Dec 2026 – Jan 2027 | 🔲 |
+| **2** | ⚙️ **Core systems**: login with invite codes, roles, offline storage, backend | Nov – Dec 2026 | 🚧 |
+| **3** | 📡 **Live features**: schedule, cleaning duty, Masters on duty, news, group chat, notifications | Dec 2026 – Jan 2027 | 🔲 |
 | **4** | 📚 **Information sections**: rules, styles, staff, Masters, school, extras | Jan 2027 | 🔲 |
 | **5** | 🚪 **Entry experience**: introduction, main page, settings | Feb 2027 | 🔲 |
 | **6** | 🎨 **Design**: colors, fonts, icons, animations | Feb 2027 | 🔲 |
@@ -64,15 +66,21 @@ It helps new students get started, keeps current students up to date, and gives 
 - [x] Language system (English / Chinese)
 
 **⚙️ Phase 2: Core systems 🚧**
-- [ ] Registration / Login
+- [ ] Backend that works in China without a VPN
+- [ ] Registration / Login with invite codes (single-use, expiring)
+- [ ] Roles (student, translator, Master, headmaster, admin) and permissions
+- [ ] Account states: active, alumni (news + chat only), banned
+- [ ] Profile page
+- [ ] Ban and delete accounts
 - [ ] Offline videos and photos
-- [ ] Backend for live data
+- [ ] Local storage for cached live data
 
 **📡 Phase 3: Live features**
 - [ ] Live schedule tab
 - [ ] Cleaning duty tab
 - [ ] Masters on duty tab
 - [ ] News and upcoming events
+- [ ] Group chat
 - [ ] Notifications
 
 **📚 Phase 4: Information sections**
@@ -82,7 +90,7 @@ It helps new students get started, keeps current students up to date, and gives 
 - [ ] Things to do outside of training
 - [ ] New student checklist
 - [ ] How to get to the school
-- [ ] Tutorial for new students
+- [ ] Tutorial for new students (with a skip button)
 
 **🚪 Phase 5: Entry experience**
 - [ ] Introduction
@@ -104,6 +112,26 @@ It helps new students get started, keeps current students up to date, and gives 
 
 ---
 
+## 🔐 Roles & Access
+
+Only people connected to the school can use the app. New accounts are created with an invite code from the school.
+
+| Role | Who |
+|------|-----|
+| Student | Students of the school |
+| Translator | Translators of the school |
+| Master | Masters / teachers |
+| Headmaster | The leader of the school |
+| Admin | Owner of the app |
+
+| Account state | Access |
+|---------------|--------|
+| Active | Full access until the end of the stay |
+| Alumni | Left the school: news and chat only |
+| Banned | No access |
+
+---
+
 ## 🌍 Languages
 
 | Language | Status |
@@ -122,8 +150,10 @@ It helps new students get started, keeps current students up to date, and gives 
 | Language | Dart |
 | Platforms | Android and iOS (single codebase) |
 | Offline media | Videos and photos bundled inside the app |
+| State management | Riverpod |
+| Navigation | go_router |
 | Localization | Flutter's built-in localization |
-| Live data & notifications | Firebase (planned) |
+| Backend, login, chat & notifications | To be decided, must work in China without a VPN |
 
 ---
 
@@ -162,7 +192,7 @@ This app is built with open-source tools and packages that keep their own licens
 |-----------|---------|
 | [Flutter](https://flutter.dev) | BSD 3-Clause |
 | [Dart](https://dart.dev) | BSD 3-Clause |
-| Firebase for Flutter (FlutterFire) | Apache 2.0 |
+| Riverpod, go_router | See each package's license |
 | Other packages from [pub.dev](https://pub.dev) | See each package's license |
 
 The licenses of all packages used in the app are shown inside the app itself (Flutter's built-in license page).
@@ -197,11 +227,13 @@ Photos, videos, texts and logos belong to their respective owners (the school, i
 
 | | 领域 | 内容 |
 |---|------|------|
-| 👋 | **入门** | 介绍页面、注册 / 登录、语言选择、老学员 / 新学员选择、新学员教程 |
-| 🏠 | **主要内容** | 主页、学校规则、前往学校的路线 |
+| 👋 | **入门** | 介绍页面、注册 / 登录、语言选择、新学员教程 |
+| 🔐 | **账号与角色** | 仅限邀请的账号、角色、个人主页、封禁和删除 |
+| 🏠 | **主要内容** | 主页、学校规则、新学员清单、前往学校的路线 |
 | 🥋 | **武术与人物** | 太极拳、少林功夫、咏春拳、散打概览，工作人员、师父、学校介绍，训练之外可做的事情 |
 | 🎬 | **媒体** | 内置视频和照片，**完全支持离线**，不使用外部链接 |
 | 📡 | **实时信息** | 实时课程表、活动新闻、本周清洁值日、值班师父、通知 |
+| 💬 | **社区** | 所有人共用一个群聊，名字按角色显示颜色 |
 | ⚙️ | **通用** | 设置、英文 / 中文（之后增加更多语言）、Android 和 iOS |
 
 ---
@@ -213,8 +245,8 @@ Photos, videos, texts and logos belong to their respective owners (the school, i
 | 阶段 | 重点 | 目标时间 | 状态 |
 |:----:|------|----------|:----:|
 | **1** | 🧱 **基础**：项目搭建、导航、语言系统 | 2026 年 11 月 | ✅ |
-| **2** | ⚙️ **核心系统**：登录、离线存储、后端 | 2026 年 11 – 12 月 | 🚧 |
-| **3** | 📡 **实时功能**：课程表、清洁值日、值班师父、新闻、通知 | 2026 年 12 月 – 2027 年 1 月 | 🔲 |
+| **2** | ⚙️ **核心系统**：邀请码登录、角色、离线存储、后端 | 2026 年 11 – 12 月 | 🚧 |
+| **3** | 📡 **实时功能**：课程表、清洁值日、值班师父、新闻、群聊、通知 | 2026 年 12 月 – 2027 年 1 月 | 🔲 |
 | **4** | 📚 **信息板块**：规则、武术门类、工作人员、师父、学校、其他 | 2027 年 1 月 | 🔲 |
 | **5** | 🚪 **入口体验**：介绍页面、主页、设置 | 2027 年 2 月 | 🔲 |
 | **6** | 🎨 **设计**：配色、字体、图标、动画 | 2027 年 2 月 | 🔲 |
@@ -231,15 +263,21 @@ Photos, videos, texts and logos belong to their respective owners (the school, i
 - [x] 语言系统（英文 / 中文）
   
 **⚙️ 第 2 阶段：核心系统 🚧**
-- [ ] 注册 / 登录
+- [ ] 无需 VPN 即可在中国使用的后端
+- [ ] 使用邀请码注册 / 登录（一次性、有有效期）
+- [ ] 角色（学员、翻译、师父、校长、管理员）与权限
+- [ ] 账号状态：在读、校友（仅新闻和聊天）、封禁
+- [ ] 个人主页
+- [ ] 封禁和删除账号
 - [ ] 离线视频和照片
-- [ ] 实时数据后端
+- [ ] 实时数据的本地缓存
 
 **📡 第 3 阶段：实时功能**
 - [ ] 实时课程表标签页
 - [ ] 清洁值日标签页
 - [ ] 值班师父标签页
 - [ ] 新闻与即将举行的活动
+- [ ] 群聊
 - [ ] 通知
 
 **📚 第 4 阶段：信息板块**
@@ -249,7 +287,7 @@ Photos, videos, texts and logos belong to their respective owners (the school, i
 - [ ] 训练之外可做的事情
 - [ ] 新学员清单
 - [ ] 前往学校的路线
-- [ ] 新学员教程
+- [ ] 新学员教程（带跳过按钮）
 
 **🚪 第 5 阶段：入口体验**
 - [ ] 介绍页面
@@ -271,6 +309,26 @@ Photos, videos, texts and logos belong to their respective owners (the school, i
 
 ---
 
+## 🔐 角色与权限
+
+只有与学校相关的人才能使用本应用。新账号需要通过学校提供的邀请码创建。
+
+| 角色 | 说明 |
+|------|------|
+| 学员 | 学校的学员 |
+| 翻译 | 学校的翻译 |
+| 师父 | 师父 / 老师 |
+| 校长 | 学校的负责人 |
+| 管理员 | 应用的所有者 |
+
+| 账号状态 | 权限 |
+|----------|------|
+| 在读 | 在停留期内拥有完整权限 |
+| 校友 | 已离开学校：仅可查看新闻和聊天 |
+| 封禁 | 无法使用 |
+
+---
+
 ## 🌍 语言
 
 | 语言 | 状态 |
@@ -289,8 +347,10 @@ Photos, videos, texts and logos belong to their respective owners (the school, i
 | 编程语言 | Dart |
 | 平台 | Android 和 iOS（同一套代码） |
 | 离线媒体 | 视频和照片内置于应用中 |
+| 状态管理 | Riverpod |
+| 导航 | go_router |
 | 本地化 | Flutter 内置本地化功能 |
-| 实时数据与通知 | 计划使用 Firebase |
+| 后端、登录、聊天与通知 | 待定，必须无需 VPN 即可在中国使用 |
 
 ---
 
@@ -329,7 +389,7 @@ cd Qufu-Shaolin-Kung-Fu-App
 |------|--------|
 | [Flutter](https://flutter.dev) | BSD 3-Clause |
 | [Dart](https://dart.dev) | BSD 3-Clause |
-| Firebase for Flutter (FlutterFire) | Apache 2.0 |
+| Riverpod、go_router | 请见各软件包的许可证 |
 | 来自 [pub.dev](https://pub.dev) 的其他软件包 | 请见各软件包的许可证 |
 
 应用中使用的所有软件包的许可证均可在应用内查看（Flutter 内置的许可证页面）。
